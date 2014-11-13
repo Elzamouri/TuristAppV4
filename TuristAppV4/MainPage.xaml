@@ -10,7 +10,6 @@
     vfgfdgfg
 
     
-    jacob was  hrrer
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     	<Grid.ColumnDefinitions>
     		<ColumnDefinition Width="Auto"/>
