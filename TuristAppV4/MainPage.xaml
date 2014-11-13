@@ -7,7 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     
+<<<<<<< HEAD
     
+=======
+>>>>>>> 4cecbdc2efacbdc15fd51871e9ade7c89223463e
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     	<Grid.ColumnDefinitions>
     		<ColumnDefinition Width="Auto"/>

@@ -5,7 +5,11 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuristAppV4", "TuristAppV4\TuristAppV4.csproj", "{0CDA3791-05C2-44CF-986E-EED562277260}"
 EndProject
+<<<<<<< HEAD
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UML", "UML\UML.modelproj", "{5E4F5DE3-D980-4875-9618-EF5273040041}"
+=======
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{AC639A09-6B31-400A-9F68-4236DC567FAC}"
+>>>>>>> 4cecbdc2efacbdc15fd51871e9ade7c89223463e
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,7 @@ Global
 		{0CDA3791-05C2-44CF-986E-EED562277260}.Release|x86.ActiveCfg = Release|x86
 		{0CDA3791-05C2-44CF-986E-EED562277260}.Release|x86.Build.0 = Release|x86
 		{0CDA3791-05C2-44CF-986E-EED562277260}.Release|x86.Deploy.0 = Release|x86
+<<<<<<< HEAD
 		{5E4F5DE3-D980-4875-9618-EF5273040041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E4F5DE3-D980-4875-9618-EF5273040041}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E4F5DE3-D980-4875-9618-EF5273040041}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -53,6 +58,18 @@ Global
 		{5E4F5DE3-D980-4875-9618-EF5273040041}.Release|ARM.ActiveCfg = Release|Any CPU
 		{5E4F5DE3-D980-4875-9618-EF5273040041}.Release|x64.ActiveCfg = Release|Any CPU
 		{5E4F5DE3-D980-4875-9618-EF5273040041}.Release|x86.ActiveCfg = Release|Any CPU
+=======
+		{AC639A09-6B31-400A-9F68-4236DC567FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC639A09-6B31-400A-9F68-4236DC567FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC639A09-6B31-400A-9F68-4236DC567FAC}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{AC639A09-6B31-400A-9F68-4236DC567FAC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AC639A09-6B31-400A-9F68-4236DC567FAC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AC639A09-6B31-400A-9F68-4236DC567FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC639A09-6B31-400A-9F68-4236DC567FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC639A09-6B31-400A-9F68-4236DC567FAC}.Release|ARM.ActiveCfg = Release|Any CPU
+		{AC639A09-6B31-400A-9F68-4236DC567FAC}.Release|x64.ActiveCfg = Release|Any CPU
+		{AC639A09-6B31-400A-9F68-4236DC567FAC}.Release|x86.ActiveCfg = Release|Any CPU
+>>>>>>> 4cecbdc2efacbdc15fd51871e9ade7c89223463e
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
