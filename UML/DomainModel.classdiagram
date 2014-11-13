@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="7c502e42-9162-4f2d-886e-3349bf41d950" name="DomainModel" linkedPackageId="b9a14b51-a09b-44b0-8b53-c96db844fd94" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="3841341f-f306-44f6-bd23-96f4ecf71d3e">
+      <profileInstance Id="45d47b9e-6d7b-4242-b56c-f86338047048" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="bf83595a-5126-4ff3-9d34-8e003d769811">
+      <profileInstance Id="361f69c7-9055-4f00-b803-8628c6513281" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9d3f9810-1daa-4a63-9ff4-ea1537128b46" name="Kategori" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="66279d9d-1be9-410d-af02-4b56f593dc93" />
+        <targetEnds>
+          <association Id="21eb69f1-4f94-41b8-a06b-c33afc29c320" isDerived="false" sourceEndRoleName="Kategori" targetEndRoleName="Restaurant" isLeaf="false" name="Knytter restaurant til kategori" isAbstract="false">
+            <classMoniker Id="1c860d85-808a-4fe3-9a2f-ee812d0a3bf8" LastKnownName="Restaurant" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c9a1e03e-8a5b-44ad-aed7-4e3dd8eefb6b" name="Kategori" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c8e08ba1-6f75-4d2c-a962-f125d8d77bd1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3976a119-7190-4661-be88-70b7e5d149cd" name="Restaurant" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="b1a7cfef-ecab-4a37-b3cb-7fb39b4cfc7f" name="Lower" value="*">
+                      <elementDefinition Id="46295adf-47d8-4145-976a-5a2124b16828" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="8979367b-ec45-4601-8da7-3a1a9f22cbaa" name="Upper" value="*">
+                      <elementDefinition Id="e5651294-ce2e-43be-9093-ddfca672778d" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="e033a064-0ab9-4e68-b60c-d989802fec66" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3dd9f6f8-4382-4e74-b9c5-7979f0e2a05a" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="538f39f8-441f-446f-b937-3954732b0bfb" name="Kategorinavn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b5ae081a-7c08-4932-9bcb-04b8d379ed9b" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1c860d85-808a-4fe3-9a2f-ee812d0a3bf8" name="Restaurant" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bd3023cd-b430-47b5-aff4-ff0ee2e6abb9" />
+        <ownedAttributesInternal>
+          <property Id="5686fc47-be96-4243-a06f-e31f75b81d5c" name="Restaurantnavn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="572e28c0-12db-414d-a4b8-d1a823da7737" />
+          </property>
+          <property Id="1899737a-61f8-4e23-96b3-9458b0c13170" name="Beskrivelse" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d509548a-61cb-4df1-88e1-097e4cd1dae0" />
+          </property>
+          <property Id="b86179c0-6fb5-4253-aabb-f006776b5e76" name="Telefon" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f5f85dc6-376c-4146-a18b-f15c9dff5a46" />
+          </property>
+          <property Id="96c5d606-28b4-4498-a825-dee9c8e3244a" name="Hjemmeside" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d025f6f4-4b88-4080-b5bf-957e8ff1164d" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="b9a14b51-a09b-44b0-8b53-c96db844fd94" name="UML">
+    <elementDefinition Id="848b43c5-995e-4a73-a925-2bb53f12c504" />
+  </package>
+</logicalClassDesignerModel>
