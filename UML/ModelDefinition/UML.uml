@@ -149,7 +149,7 @@
     <packageHasNamedElement>
       <actor
         Id="068e437a-6d1a-4527-a16d-53b2588feb04"
-        name="Actor1"
+        name="Bruger"
         isAbstract="false"
         isLeaf="false">
         <targetEnds>

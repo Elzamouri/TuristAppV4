@@ -3,7 +3,7 @@
   <useCaseModelRootMoniker Id="7f283d65-e161-4080-abb4-b20b4576bb6b" />
   <nestedChildShapes>
     <actorShape Id="cd4b0413-9396-4dbd-952b-b83750ff86a6" absoluteBounds="2.625, 1.5, 0.5, 0.5" isReference="false" heightOffset="0">
-      <actorMoniker Id="a443e9e0-e29f-43a6-a061-cc28002d7b6a" LastKnownName="Actor1" />
+      <actorMoniker Id="a443e9e0-e29f-43a6-a061-cc28002d7b6a" LastKnownName="Bruger" />
       <relativeChildShapes />
     </actorShape>
     <useCaseShape Id="7b1c2a80-d106-4c03-86d7-3fa9f75a4b75" absoluteBounds="5.125, 3, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
@@ -14,7 +14,7 @@
       <useCaseMoniker Id="cdb85057-8f47-4fc9-b4bc-bcfec40324cf" LastKnownName="Oversigt over restauranter" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(5.625 : 2.125); (5.625 : 3)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(5.625 : 2.125); (5.625 : 3)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="8a724347-dbe9-4e31-8a3c-d87d3946bfc2" />
       <relativeChildShapes />
       <nodes>
@@ -22,7 +22,7 @@
         <useCaseShapeMoniker Id="7b1c2a80-d106-4c03-86d7-3fa9f75a4b75" />
       </nodes>
     </useCaseAssociationConnector>
-    <useCaseAssociationConnector edgePoints="[(3.125 : 1.75); (5.125 : 1.75)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(3.125 : 1.75); (5.125 : 1.75)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="c889ebba-9519-4672-9c02-9d2375af5053" />
       <relativeChildShapes />
       <nodes>
@@ -38,7 +38,7 @@
       <useCaseMoniker Id="40ae647d-6ba7-49f8-b472-5f6deb3832cc" LastKnownName="vis information" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(5.625 : 3.5); (5.625 : 4.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(5.625 : 3.5); (5.625 : 4.5)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="5ca7f924-c21d-4bb6-b229-940a3a21dcc6" />
       <relativeChildShapes />
       <nodes>
@@ -46,7 +46,7 @@
         <useCaseShapeMoniker Id="37646237-0f73-4c9c-b285-a255b2b6907c" />
       </nodes>
     </useCaseAssociationConnector>
-    <useCaseAssociationConnector edgePoints="[(3.125 : 4.75); (5.125 : 4.75)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(3.125 : 4.75); (5.125 : 4.75)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="ffc8959c-a91d-4625-b8b8-2c5263684796" />
       <relativeChildShapes />
       <nodes>
@@ -58,7 +58,7 @@
       <useCaseMoniker Id="ff1fcb29-d578-48e5-830f-6c53d320a47a" LastKnownName="opret Restaurant" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(6.125 : 4.75); (7.875 : 4.75)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(6.125 : 4.75); (7.875 : 4.75)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="00706673-3e2b-43cc-9616-3fdf6fb844a6" />
       <relativeChildShapes />
       <nodes>
@@ -70,7 +70,7 @@
       <useCaseMoniker Id="7205d66b-0c85-4f50-ac28-f1cd7da1ab10" LastKnownName="vælg information / restaurant" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(5.625 : 5); (5.625 : 5.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(5.625 : 5); (5.625 : 5.875)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="f6e8ddac-9ddb-440b-b65b-1febfe8bea95" />
       <relativeChildShapes />
       <nodes>
@@ -82,7 +82,7 @@
       <useCaseMoniker Id="45daaac0-3605-44ea-9b59-e38ee18c01df" LastKnownName="slet restaurant" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(6.125 : 6.25); (8 : 6.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(6.125 : 6.25); (8 : 6.25)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="b0b84c42-3a00-4ba0-b669-34ac5eeec5c5" />
       <relativeChildShapes />
       <nodes>
