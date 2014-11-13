@@ -12,9 +12,14 @@
 
     
     jacob was  hrrer
+<<<<<<< HEAD
 =======
     sss
 >>>>>>> daniel
+=======
+    
+    jari er sejggggfffpik
+>>>>>>> 9e83d88aa8193a731ce004f0914bcea050d72729
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     	<Grid.ColumnDefinitions>
     		<ColumnDefinition Width="Auto"/>
