@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.125, 13.25" name="UseCase">
+  <useCaseModelRootMoniker Id="7f283d65-e161-4080-abb4-b20b4576bb6b" />
+  <nestedChildShapes>
+    <actorShape Id="cd4b0413-9396-4dbd-952b-b83750ff86a6" absoluteBounds="5.5, 7.875, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="a443e9e0-e29f-43a6-a061-cc28002d7b6a" LastKnownName="Actor1" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="7b1c2a80-d106-4c03-86d7-3fa9f75a4b75" absoluteBounds="8, 9.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="f2f49514-bfcd-4954-b393-fe9d32368f96" LastKnownName="Besøg Restaurant" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="90e3e292-2dc8-416b-a540-b36a11597af1" absoluteBounds="8, 7.75, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="cdb85057-8f47-4fc9-b4bc-bcfec40324cf" LastKnownName="Oversigt over restauranter" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(8.5 : 8.5); (8.5 : 9.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="8a724347-dbe9-4e31-8a3c-d87d3946bfc2" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="90e3e292-2dc8-416b-a540-b36a11597af1" />
+        <useCaseShapeMoniker Id="7b1c2a80-d106-4c03-86d7-3fa9f75a4b75" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(6 : 8.125); (8 : 8.125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c889ebba-9519-4672-9c02-9d2375af5053" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="cd4b0413-9396-4dbd-952b-b83750ff86a6" />
+        <useCaseShapeMoniker Id="90e3e292-2dc8-416b-a540-b36a11597af1" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <actorShape Id="a30518d3-8574-4c4b-8bdf-8470bbe06299" absoluteBounds="5.5, 10.875, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="900f0198-e5b5-461a-9573-2cf3a8cf746b" LastKnownName="Restaurant1" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="37646237-0f73-4c9c-b285-a255b2b6907c" absoluteBounds="8, 10.875, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="40ae647d-6ba7-49f8-b472-5f6deb3832cc" LastKnownName="vis information" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(8.5 : 9.875); (8.5 : 10.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="5ca7f924-c21d-4bb6-b229-940a3a21dcc6" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="7b1c2a80-d106-4c03-86d7-3fa9f75a4b75" />
+        <useCaseShapeMoniker Id="37646237-0f73-4c9c-b285-a255b2b6907c" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(6 : 11.125); (8 : 11.125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="ffc8959c-a91d-4625-b8b8-2c5263684796" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="a30518d3-8574-4c4b-8bdf-8470bbe06299" />
+        <useCaseShapeMoniker Id="37646237-0f73-4c9c-b285-a255b2b6907c" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="62313b58-80f0-4978-a2e9-7f1be8a84f55" absoluteBounds="10.75, 10.875, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ff1fcb29-d578-48e5-830f-6c53d320a47a" LastKnownName="opret Restaurant" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(9 : 11.125); (10.75 : 11.125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="00706673-3e2b-43cc-9616-3fdf6fb844a6" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="37646237-0f73-4c9c-b285-a255b2b6907c" />
+        <useCaseShapeMoniker Id="62313b58-80f0-4978-a2e9-7f1be8a84f55" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="b7421ade-b167-46c0-be03-66941cd7b3e0" absoluteBounds="8, 12.25, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="7205d66b-0c85-4f50-ac28-f1cd7da1ab10" LastKnownName="vælg information / restaurant" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(8.5 : 11.375); (8.5 : 12.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="f6e8ddac-9ddb-440b-b65b-1febfe8bea95" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="37646237-0f73-4c9c-b285-a255b2b6907c" />
+        <useCaseShapeMoniker Id="b7421ade-b167-46c0-be03-66941cd7b3e0" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="1a7e967d-c35d-4fae-8d8b-18fc27ca295f" absoluteBounds="10.875, 12.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="45daaac0-3605-44ea-9b59-e38ee18c01df" LastKnownName="slet restaurant" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(9 : 12.625); (10.875 : 12.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b0b84c42-3a00-4ba0-b669-34ac5eeec5c5" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="b7421ade-b167-46c0-be03-66941cd7b3e0" />
+        <useCaseShapeMoniker Id="1a7e967d-c35d-4fae-8d8b-18fc27ca295f" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

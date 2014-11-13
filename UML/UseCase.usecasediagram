@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="7f283d65-e161-4080-abb4-b20b4576bb6b" name="UseCase" linkedPackageId="97f84d5a-9ffd-4710-9e7d-026fcb249544" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="a443e9e0-e29f-43a6-a061-cc28002d7b6a" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="068e437a-6d1a-4527-a16d-53b2588feb04" />
+        <targetEnds>
+          <association Id="c889ebba-9519-4672-9c02-9d2375af5053" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Oversigt over restauranter" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="cdb85057-8f47-4fc9-b4bc-bcfec40324cf" LastKnownName="Oversigt over restauranter" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e8a9954-67b4-4f42-bbf6-a8f8adcc8ffc" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1fd9ea35-321b-4e96-aa0b-3767f7799a9d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dea1dfaf-d1b8-4414-b220-b48ee56ca6fc" name="Oversigt over restauranter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4da2ead1-d41f-4011-99c8-049c6ab2b1a0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a909507b-848c-4c34-84ab-6e9984ffd251" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f2f49514-bfcd-4954-b393-fe9d32368f96" name="Besøg Restaurant" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ffb03392-3a3e-4ce6-a686-7800d41119ff" />
+        <targetEnds>
+          <association Id="5ca7f924-c21d-4bb6-b229-940a3a21dcc6" isDerived="false" sourceEndRoleName="Besøg Restaurant" targetEndRoleName="vis information" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="40ae647d-6ba7-49f8-b472-5f6deb3832cc" LastKnownName="vis information" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b91ffb1e-9fbe-4344-889c-0d9ce00829cd" name="Besøg Restaurant" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8bbba387-96e4-4006-aca2-ae6053cc3f75" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f61a72b1-4bf1-4238-8c71-f5799dd54e37" name="vis information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="879166b7-34f3-4792-9edb-d0d5d741ef2d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1901f949-c15d-4a08-b79b-bd820a3d1d81" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cdb85057-8f47-4fc9-b4bc-bcfec40324cf" name="Oversigt over restauranter" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e13787d8-3349-457d-b353-0344499a7b40" />
+        <targetEnds>
+          <association Id="8a724347-dbe9-4e31-8a3c-d87d3946bfc2" isDerived="false" sourceEndRoleName="Oversigt over restauranter" targetEndRoleName="Besøg Restaurant" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f2f49514-bfcd-4954-b393-fe9d32368f96" LastKnownName="Besøg Restaurant" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="271e8f7a-79eb-495b-b262-190b0e9ed8f7" name="Oversigt over restauranter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bc252d35-3f08-4248-9016-831fb2cd87a8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="83983084-8544-4836-bc55-b40cf6e8b8ca" name="Besøg Restaurant" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="916399a0-4087-4bc6-b84f-f28ffa3313c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1d8600ce-09cf-46d2-bef2-a066353b13a3" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="900f0198-e5b5-461a-9573-2cf3a8cf746b" name="Restaurant1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5286e83d-affa-4f9b-994e-1887e38e8bde" />
+        <targetEnds>
+          <association Id="ffc8959c-a91d-4625-b8b8-2c5263684796" isDerived="false" sourceEndRoleName="Restaurant" targetEndRoleName="vis information" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="40ae647d-6ba7-49f8-b472-5f6deb3832cc" LastKnownName="vis information" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a1205c50-e17f-4a5a-a502-73b5a3c7ba53" name="Restaurant" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3783d44e-ce78-4710-a4cb-040f75810f2e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="61182eb1-ba20-4338-a1dd-edcdb4be2ee7" name="vis information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="25f920b6-c8ec-4c52-b701-51fb9106fb97" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="aa231959-598a-4581-b08d-3051ed0b57dc" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="40ae647d-6ba7-49f8-b472-5f6deb3832cc" name="vis information" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bbb6b977-7305-476b-90c7-de615caf1a74" />
+        <targetEnds>
+          <association Id="00706673-3e2b-43cc-9616-3fdf6fb844a6" isDerived="false" sourceEndRoleName="vis information" targetEndRoleName="opret Restaurant" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ff1fcb29-d578-48e5-830f-6c53d320a47a" LastKnownName="opret Restaurant" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cb7a0f1f-bc3c-4418-ba5f-557bed9f97ab" name="vis information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d35ca289-8a9a-44d8-badb-d51d0c8ccc1e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3bc2b04a-2d5b-47bf-a22a-5b1cbc61b9d5" name="opret Restaurant" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fee16d06-0c57-46c0-b413-afe511c2a0fe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7c17c2ce-8668-4597-bdda-6232cfe06099" />
+          </association>
+          <association Id="f6e8ddac-9ddb-440b-b65b-1febfe8bea95" isDerived="false" sourceEndRoleName="vis information" targetEndRoleName="vælg information / restaurant" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7205d66b-0c85-4f50-ac28-f1cd7da1ab10" LastKnownName="vælg information / restaurant" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ded9f5a9-d28a-4c73-bd42-bc4c59a9a0de" name="vis information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="acebea19-0065-4593-b177-f7becab5bfe7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a211505e-4b7a-4733-a8b8-a8467c1a7497" name="vælg information / restaurant" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d1dab170-84f6-4baa-97a9-377bc8d56f5b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a6f81d34-a6d8-45c7-9862-bfa2c44ba3bc" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ff1fcb29-d578-48e5-830f-6c53d320a47a" name="opret Restaurant" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7271a4f8-6e9d-43ec-89d8-751214f450a5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7205d66b-0c85-4f50-ac28-f1cd7da1ab10" name="vælg information / restaurant" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="55fb877a-6cb0-45a2-991d-baf84515af4c" />
+        <targetEnds>
+          <association Id="b0b84c42-3a00-4ba0-b669-34ac5eeec5c5" isDerived="false" sourceEndRoleName="vælg information / restaurant" targetEndRoleName="slet restaurant" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="45daaac0-3605-44ea-9b59-e38ee18c01df" LastKnownName="slet restaurant" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="adb341cb-d9f8-4b28-9941-15b677513362" name="vælg information / restaurant" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4a7db47b-6452-4d06-8ccc-a3efccfdd234" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bc0cf0d2-2d6e-4d52-9687-ae2ccf87262c" name="slet restaurant" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="388dfcd0-ee12-430c-b675-9dbb2f0c120e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9fa4b2bb-0b96-479a-b899-469c47c60efd" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="45daaac0-3605-44ea-9b59-e38ee18c01df" name="slet restaurant" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="aa8896d9-867d-4ea2-9ae5-f0ece8a0f93a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="97f84d5a-9ffd-4710-9e7d-026fcb249544" name="UML">
+    <elementDefinition Id="848b43c5-995e-4a73-a925-2bb53f12c504" />
+  </package>
+</useCaseModelRoot>
