@@ -6,8 +6,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+<<<<<<< HEAD
    
     lala
+=======
+    
+>>>>>>> ea889f200ed63160b88393f051a15fd1a5328d95
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     	<Grid.ColumnDefinitions>
     		<ColumnDefinition Width="Auto"/>
@@ -24,11 +28,11 @@
     			</LinearGradientBrush>
     		</Grid.Background>
     	</Grid>
-    	<TextBlock Height="69" Margin="112,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="368" FontSize="48" Foreground="#FFF1F1F1" HorizontalAlignment="Left" Grid.Column="1" Grid.ColumnSpan="2">
+        <TextBlock Height="69" Margin="112,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="368" FontSize="48" Foreground="#FFF1F1F1" HorizontalAlignment="Left" Grid.Column="1" Grid.ColumnSpan="2">
     		<Run Text=" Eat Out"/>
     		<Run Text=" -"/>
     		<Run Text=" "/>
     		<Run FontStyle="Italic" FontSize="40" Text="Roskilde"/>
-    	</TextBlock>
+        </TextBlock>
     </Grid>
 </Page>
