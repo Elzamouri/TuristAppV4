@@ -55,6 +55,9 @@
           <property Id="96c5d606-28b4-4498-a825-dee9c8e3244a" name="Hjemmeside" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="d025f6f4-4b88-4080-b5bf-957e8ff1164d" />
           </property>
+          <property Id="b0448422-e890-49fe-9ce0-08d31b3355dc" name="Bedømmelse" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="30c7b862-83da-4669-bc22-da5193456323" />
+          </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
