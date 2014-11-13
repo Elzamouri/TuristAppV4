@@ -29,5 +29,6 @@
     		<Run Text=" "/>
     		<Run FontStyle="Italic" FontSize="40" Text="Roskilde"/>
     	</TextBlock>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="7,8,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>
