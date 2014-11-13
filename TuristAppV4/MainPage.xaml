@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
    
-    jari
+    jaris
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     	<Grid.ColumnDefinitions>
     		<ColumnDefinition Width="Auto"/>
