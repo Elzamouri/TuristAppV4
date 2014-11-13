@@ -2,7 +2,7 @@
 <useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="7f283d65-e161-4080-abb4-b20b4576bb6b" name="UseCase" linkedPackageId="97f84d5a-9ffd-4710-9e7d-026fcb249544" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
   <packagedElements>
     <useCaseModelRootHasTypes>
-      <actor Id="a443e9e0-e29f-43a6-a061-cc28002d7b6a" name="Actor1" isAbstract="false" isLeaf="false">
+      <actor Id="a443e9e0-e29f-43a6-a061-cc28002d7b6a" name="Bruger" isAbstract="false" isLeaf="false">
         <elementDefinition Id="068e437a-6d1a-4527-a16d-53b2588feb04" />
         <targetEnds>
           <association Id="c889ebba-9519-4672-9c02-9d2375af5053" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Oversigt over restauranter" isLeaf="false" isAbstract="false">
